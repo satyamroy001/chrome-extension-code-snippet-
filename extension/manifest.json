@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name":"code snippet",
+    "description":"This extension opens carbon.sh for saving code snippet beautifully",
+    "version": "1.0",
+    "permissions":["tabs","bookmarks"],
+    
+    "background":{
+        "scripts": ["background.js"]
+      },
+      "icons":{"16": "icon1.png",
+        "48": "icon1.png",
+        "128": "icon1.png"},
+      "browser_action": {
+         
+      }
+   
+}
+
+
